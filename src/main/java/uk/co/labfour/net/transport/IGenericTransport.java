@@ -14,4 +14,6 @@ public interface IGenericTransport {
 	
 	public void send(BaseRequest request) throws BException;
 
+	public String getReplyToAddress();
+
 }
